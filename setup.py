@@ -51,7 +51,7 @@ setup(
         'pandas',
         'dicom2nifti',
         'emoji',
-        'dask[distributed]',
+        'dask',
     ],
     entry_points={
         'console_scripts': [

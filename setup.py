@@ -47,13 +47,11 @@ setup(
         'natsort',
         'pillow',
         'colorama',
-        'dask',
         'rich',
         'pandas',
         'dicom2nifti',
         'emoji',
         'dask[distributed]',
-        'opencv-python',
     ],
     entry_points={
         'console_scripts': [

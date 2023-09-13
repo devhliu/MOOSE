@@ -53,9 +53,11 @@ AVAILABLE_MODELS = ["clin_ct_lungs",
 #
 # To include your own model, add a new entry to this dictionary following the above format.
 
+# replace "https://moose-files.s3.eu-de.cloud-object-storage.appdomain.cloud/" with
+#         "http://localhost:8080/models/moosez/"
 MODELS = {
     "clin_ct_lungs": {
-        "url": "https://moose-files.s3.eu-de.cloud-object-storage.appdomain.cloud/clin_ct_lungs_24062023.zip",
+        "url": "http://localhost:8080/models/moosez/clin_ct_lungs_24062023.zip",
         "filename": "Dataset333_HMS3dlungs.zip",
         "directory": "Dataset333_HMS3dlungs",
         "trainer": "nnUNetTrainer_2000epochs_NoMirroring",
@@ -63,7 +65,7 @@ MODELS = {
         "multilabel_prefix": "CT_Lungs_"
     },
     "clin_ct_organs": {
-        "url": "https://moose-files.s3.eu-de.cloud-object-storage.appdomain.cloud/MOOSEv2_bspline_organs23062023.zip",
+        "url": "http://localhost:8080/models/moosez/MOOSEv2_bspline_organs23062023.zip",
         "filename": "Dataset123_Organs.zip",
         "directory": "Dataset123_Organs",
         "trainer": "nnUNetTrainer_2000epochs_NoMirroring",
@@ -71,7 +73,7 @@ MODELS = {
         "multilabel_prefix": "CT_Organs_"
     },
     "clin_pt_fdg_tumor": {
-        "url": "https://moose-files.s3.eu-de.cloud-object-storage.appdomain.cloud/clin_pt_fdg_tumor_3_30072023.zip",
+        "url": "http://localhost:8080/models/moosez/clin_pt_fdg_tumor_3_30072023.zip",
         "filename": "Dataset789_Tumor_3.zip",
         "directory": "Dataset789_Tumor_3",
         "trainer": "nnUNetTrainerDA5",
@@ -79,7 +81,7 @@ MODELS = {
         "multilabel_prefix": "PT_FDG_Tumor_"
     },
     "preclin_mr_all": {
-        "url": "https://moose-files.s3.eu-de.cloud-object-storage.appdomain.cloud/preclin_mr_all_07082023.zip",
+        "url": "http://localhost:8080/models/moosez/preclin_mr_all_07082023.zip",
         "filename": "Dataset234_preclin_mr.zip",
         "directory": "Dataset234_preclin_mr",
         "trainer": "nnUNetTrainer",
@@ -87,7 +89,7 @@ MODELS = {
         "multilabel_prefix": "Preclin_MR_all_"
     },
     "clin_ct_body": {
-        "url": "https://moose-files.s3.eu-de.cloud-object-storage.appdomain.cloud/Dataset001_PUMA.zip",
+        "url": "http://localhost:8080/models/moosez/Dataset001_PUMA.zip",
         "filename": "Dataset001_PUMA.zip",
         "directory": "Dataset001_PUMA",
         "trainer": "nnUNetTrainer",
@@ -95,7 +97,7 @@ MODELS = {
         "multilabel_prefix": "CT_Body_"
     },
     "clin_ct_ribs": {
-        "url": "https://moose-files.s3.eu-de.cloud-object-storage.appdomain.cloud/clin_ct_ribs_25082023.zip",
+        "url": "http://localhost:8080/models/moosez/clin_ct_ribs_25082023.zip",
         "filename": "Dataset444_Ribs.zip",
         "directory": "Dataset444_Ribs",
         "trainer": "nnUNetTrainer_2000epochs_NoMirroring",
@@ -103,7 +105,7 @@ MODELS = {
         "multilabel_prefix": "CT_Ribs_"
     },
     "clin_ct_muscles":{
-        "url": "https://moose-files.s3.eu-de.cloud-object-storage.appdomain.cloud/clin_ct_muscles_28082023.zip",
+        "url": "clin_ct_muscles_28082023.zip",
         "filename": "Dataset555_Muscles.zip",
         "directory": "Dataset555_Muscles",
         "trainer": "nnUNetTrainer_2000epochs_NoMirroring",
@@ -111,7 +113,7 @@ MODELS = {
         "multilabel_prefix": "CT_Muscles_"
     },
     "clin_ct_peripheral_bones":{
-        "url": "https://moose-files.s3.eu-de.cloud-object-storage.appdomain.cloud/clin_ct_peripheral_bones_28082023.zip",
+        "url": "http://localhost:8080/models/moosez/clin_ct_peripheral_bones_28082023.zip",
         "filename": "Dataset666_Peripheral-Bones.zip",
         "directory": "Dataset666_Peripheral-Bones",
         "trainer": "nnUNetTrainer_2000epochs_NoMirroring",
@@ -119,7 +121,7 @@ MODELS = {
         "multilabel_prefix": "CT_Peripheral-Bones_"
     },
     "clin_ct_fat":{
-        "url": "https://moose-files.s3.eu-de.cloud-object-storage.appdomain.cloud/clin_ct_fat_31082023.zip",
+        "url": "http://localhost:8080/models/moosez/clin_ct_fat_31082023.zip",
         "filename": "Dataset777_Fat.zip",
         "directory": "Dataset777_Fat",
         "trainer": "nnUNetTrainer_2000epochs_NoMirroring",
@@ -127,7 +129,7 @@ MODELS = {
         "multilabel_prefix": "CT_Fat_"
     },
     "clin_ct_vertebrae":{
-        "url": "https://moose-files.s3.eu-de.cloud-object-storage.appdomain.cloud/clin_ct_vertebrae_04092023.zip",
+        "url": "http://localhost:8080/models/moosez/clin_ct_vertebrae_04092023.zip",
         "filename": "Dataset111_Vertebrae.zip",
         "directory": "Dataset111_Vertebrae",
         "trainer": "nnUNetTrainer_2000epochs_NoMirroring",
@@ -135,7 +137,7 @@ MODELS = {
         "multilabel_prefix": "CT_Vertebrae_"
     },
     "clin_ct_cardiac":{
-        "url": "https://moose-files.s3.eu-de.cloud-object-storage.appdomain.cloud/clin_ct_cardiac_10092023.zip",
+        "url": "http://localhost:8080/models/moosez/clin_ct_cardiac_10092023.zip",
         "filename": "Dataset888_Cardiac.zip",
         "directory": "Dataset888_Cardiac",
         "trainer": "nnUNetTrainer_2000epochs_NoMirroring",
@@ -143,7 +145,7 @@ MODELS = {
         "multilabel_prefix": "CT_Cardiac_"
     },
     "clin_ct_digestive":{
-        "url": "https://moose-files.s3.eu-de.cloud-object-storage.appdomain.cloud/clin_ct_digestive10092023.zip",
+        "url": "http://localhost:8080/models/moosez/clin_ct_digestive10092023.zip",
         "filename": "Dataset999_Digestive.zip",
         "directory": "Dataset999_Digestive",
         "trainer": "nnUNetTrainer_2000epochs_NoMirroring",

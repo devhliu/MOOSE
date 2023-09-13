@@ -21,6 +21,3 @@ dicom2nifti~=2.4.8
 emoji
 Sphinx
 sphinx_rtd_theme
-
-
-

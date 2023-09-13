@@ -12,9 +12,10 @@ import os
 
 from moosez import file_utilities
 
-project_root = file_utilities.get_virtual_env_root()
+# project_root = file_utilities.get_virtual_env_root()
 
-NNUNET_RESULTS_FOLDER = os.path.join(project_root, 'models', 'nnunet_trained_models')
+# NNUNET_RESULTS_FOLDER = os.path.join(project_root, 'models', 'nnunet_trained_models')
+NNUNET_RESULTS_FOLDER = os.path.join('/', 'models', 'moosez')
 MOOSEZ_MODEL_FOLDER = os.path.join(NNUNET_RESULTS_FOLDER, 'nnUNet', '3d_fullres')
 ALLOWED_MODALITIES = ['CT', 'PT', 'MR']
 TEMP_FOLDER = 'temp'

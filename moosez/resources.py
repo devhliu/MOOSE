@@ -106,7 +106,7 @@ MODELS = {
         "multilabel_prefix": "CT_Ribs_"
     },
     "clin_ct_muscles":{
-        "url": "clin_ct_muscles_28082023.zip",
+        "url": "http://10.8.95.97:8080/models/moosez/clin_ct_muscles_28082023.zip",
         "filename": "Dataset555_Muscles.zip",
         "directory": "Dataset555_Muscles",
         "trainer": "nnUNetTrainer_2000epochs_NoMirroring",

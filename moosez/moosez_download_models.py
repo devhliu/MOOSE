@@ -21,7 +21,6 @@ import emoji
 from datetime import datetime
 
 import colorama
-from halo import Halo
 
 from moosez import constants
 from moosez import display
@@ -31,7 +30,7 @@ from moosez import resources
 from moosez.resources import MODELS, AVAILABLE_MODELS
 
 logging.basicConfig(format='%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s', level=logging.INFO,
-                    filename=datetime.now().strftime('moosez-v.2.0.0.%H-%M-%d-%m-%Y.log'),
+                    filename=datetime.now().strftime('moosez-v.2.2.31.%H-%M-%d-%m-%Y.log'),
                     filemode='w')
 
 
@@ -42,7 +41,7 @@ def main():
     display.citation()
 
     logging.info('----------------------------------------------------------------------------------------------------')
-    logging.info('                                     STARTING MOOSE-Z V.2.0.0                                       ')
+    logging.info('                                     STARTING MOOSE-Z V.2.2.31                                       ')
     logging.info('----------------------------------------------------------------------------------------------------')
 
     for model_name in AVAILABLE_MODELS:

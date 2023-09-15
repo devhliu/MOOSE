@@ -5,8 +5,8 @@
 # Author: Lalith Kumar Shiyam Sundar
 # Institution: Medical University of Vienna
 # Research Group: Quantitative Imaging and Medical Physics (QIMP) Team
-# Date: 09.02.2023
-# Version: 2.0.0
+# Date: 15.09.2023
+# Version: 2.2.31
 #
 # Description:
 # This module shows predefined display messages for the moosez.

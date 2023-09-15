@@ -8,8 +8,8 @@ import os
 # Author: Lalith Kumar Shiyam Sundar
 # Institution: Medical University of Vienna
 # Research Group: Quantitative Imaging and Medical Physics (QIMP) Team
-# Date: 13.02.2023
-# Version: 2.0.0
+# Date: 15.09.2023
+# Version: 2.2.31
 #
 # Description:
 # This module downloads the necessary binaries and models for the moosez.

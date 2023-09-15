@@ -5,12 +5,14 @@
 This module contains the constants that are used in the moosez.
 
 .. moduleauthor:: Lalith Kumar Shiyam Sundar <lalith.shiyamsundar@meduniwien.ac.at>
-.. versionadded:: 2.0.0
+.. versionadded:: 2.2.31
 """
 
 import os
 
 from moosez import file_utilities
+
+MOOSEZ_VERSION = '2.2.31'
 
 # project_root = file_utilities.get_virtual_env_root()
 

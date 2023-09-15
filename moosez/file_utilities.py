@@ -48,6 +48,15 @@ def get_virtual_env_root() -> str:
     virtual_env_root = os.path.dirname(os.path.dirname(python_exe))
     return virtual_env_root
 
+def get_package_root() -> str:
+    """
+    Returns the root directory of the virtual environment.
+    
+    :return: The root directory of the virtual environment.
+    :rtype: str
+    """
+    package_root = os.path.dirname(os.path.dirname(__file__))
+    return package_root
 
 def get_files(directory: str, wildcard: str) -> list:
     """
